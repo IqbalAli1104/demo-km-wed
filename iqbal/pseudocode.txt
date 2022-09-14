@@ -1,0 +1,8 @@
+BEGIN
+INPUT travel
+IF isTraveAvailable : 
+    FALSE : show error massage 
+    TRUE : book trave 
+INPUT checkout 
+IF isMoneyEnough : 
+    FALSE : show error 
